@@ -1,5 +1,5 @@
 package com.example.jeevan.controllers;
-import com.example.jeevan.Entity.Order;
+import com.example.jeevan.entity.Order;
 import com.example.jeevan.services.OrderServices;
 
 import org.springframework.beans.factory.annotation.Autowired;

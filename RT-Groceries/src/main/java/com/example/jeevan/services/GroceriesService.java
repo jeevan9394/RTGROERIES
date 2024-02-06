@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.jeevan.Entity.Groceries;
 import com.example.jeevan.dao.GroceriesRepository;
+import com.example.jeevan.entity.Groceries;
 
 @Service
 public class GroceriesService {

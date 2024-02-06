@@ -2,8 +2,9 @@ package com.example.jeevan.services;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.example.jeevan.Entity.Consultant;
+
 import com.example.jeevan.dao.ConsultantRepository;
+import com.example.jeevan.entity.Consultant;
 
 @org.springframework.stereotype.Service
 public class ConsultantService {

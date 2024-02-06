@@ -1,6 +1,6 @@
 package com.example.jeevan.controllers;
 
-import com.example.jeevan.Entity.GroceriesCategories;
+import com.example.jeevan.entity.GroceriesCategories;
 import com.example.jeevan.services.GroceriesCategoriesServices;
 
 import org.springframework.beans.factory.annotation.Autowired;

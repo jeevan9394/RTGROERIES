@@ -1,6 +1,6 @@
 package com.example.jeevan.services;
-import com.example.jeevan.Entity.Order;
 import com.example.jeevan.dao.OrderRepository;
+import com.example.jeevan.entity.Order;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

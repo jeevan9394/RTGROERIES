@@ -1,7 +1,7 @@
 package com.example.jeevan.services;
 
-import com.example.jeevan.Entity.GroceriesCategories;
 import com.example.jeevan.dao.GroceriesCategoriesRepository;
+import com.example.jeevan.entity.GroceriesCategories;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

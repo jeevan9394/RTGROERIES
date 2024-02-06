@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.jeevan.Entity.Groceries;
+import com.example.jeevan.entity.Groceries;
 import com.example.jeevan.services.GroceriesService;
 
 import java.util.List;

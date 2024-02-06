@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.jeevan.Entity.Consultant;
+import com.example.jeevan.entity.Consultant;
 import com.example.jeevan.services.ConsultantService;
 
 @RestController
