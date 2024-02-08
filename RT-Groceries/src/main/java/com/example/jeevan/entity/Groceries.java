@@ -2,7 +2,6 @@
 
 import java.util.Date;
 
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -21,16 +20,16 @@ public class Groceries {
 	private int ItemQuantity;
 	private int ItemType;
 	
-	 @Column(name = "created_date")
+	 //@Column(name = "created_date")
 	    private Date createdDate;
 
-	    @Column(name = "updated_date")
+	  //  @Column(name = "updated_date")
 	    private Date updatedDate;
 
-	    @Column(name = "created_by")
+	  //  @Column(name = "created_by")
 	    private Integer createdBy;
 	    
-	    @Column(name = "updated_by")
+	 //   @Column(name = "updated_by")
 	    private Integer updatedBy;
 
 	

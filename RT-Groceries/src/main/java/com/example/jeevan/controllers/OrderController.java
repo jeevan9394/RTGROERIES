@@ -16,7 +16,7 @@ public class OrderController {
     @Autowired
     private OrderServices orderService;
 
-    @GetMapping
+    @GetMapping("/getall")
     public ResponseEntity<List<Order>> getAllOrders() {
         List<Order> orders = orderService.getAllOrders();
         return ResponseEntity.ok(orders);
@@ -28,7 +28,7 @@ public class OrderController {
         return order.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
-    @PostMapping
+    @PostMapping("/createorder")
     public ResponseEntity<Order> createOrder(@RequestBody Order order) {
         Order createdOrder = orderService.createOrder(order);
         return ResponseEntity.ok(createdOrder);

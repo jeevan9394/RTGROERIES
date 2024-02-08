@@ -7,19 +7,22 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.ManyToOne;
 import lombok.Data;
 
 @Entity
 @Data
-public class GroceriesCategories {
+public class User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Integer id;
 
-	private String name;
-	private Integer status;
+	private Long id;
+	private String Username;
+	private String password;
+	@ManyToOne
+	@JoinColumn(name = "userTypeName")
+	private UserType usertype;
 	private Date createdDate;
 	private Date updatedDate;
 	private Integer createdBy;

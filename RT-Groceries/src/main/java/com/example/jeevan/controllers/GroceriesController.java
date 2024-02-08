@@ -36,7 +36,7 @@ public class GroceriesController {
         return new ResponseEntity<>(savedGroceries, HttpStatus.CREATED);
     }
 
-    @PutMapping("/update")
+    @PutMapping("/update/{id}")
     public ResponseEntity<Groceries> updateGroceries(@PathVariable Integer id, @RequestBody Groceries updatedGroceries) {
         Optional<Groceries> existingGroceries = groceriesService.getGroceriesById(id);
 
